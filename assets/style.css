@@ -3,6 +3,7 @@
     padding: 20px;
     justify-content: space-evenly;
     display: flex;
+    flex-wrap: wrap;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: xx-large;
     opacity: .3;    
@@ -67,11 +68,8 @@ padding-left: 40px;
 .tile:hover {
 transform: scale(1.1);
 }
-/* I cannot figure out how to postion the text relative 
-to the image it overlays. I've only managed to position 
-it relative to the whole page (using "top") */
-/* Notes for further development: I want to animate the
-"Creative Solutions" text using fade-in effect */
+
+
 .main-image::before {
     content: "Creative Solutions";
     position: absolute;
